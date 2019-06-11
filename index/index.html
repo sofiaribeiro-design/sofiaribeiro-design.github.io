@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sofia Ribeiro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style3.css" type="text/css" rel="stylesheet">
+
+    <script src="script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+                check_text();
+            }
+
+        );
+
+        $(window).resize(function () {
+                check_text();
+            }
+
+        );
+    </script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <p id="hora"></p>
+        <script>
+            checktime();
+        </script>
+        <h1>Bem-vindo <br>ao meu portfólio</h1>
+        <h4>Eu sou a Sofia e estudo Design.</h4>
+        <a href="Todos.html"><button class="click">Ver todos <br>os projetos</button></a>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+    <!--barra menu-->
+    <div class="navbar">
+        <a href="index.html"><i class="fa fa-fw fa-home"></i></a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Tipografia</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="absolem.html">Absolem</a>
+                <a href="agosto.html">Agosto</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Projeto I</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="carbono.html">Carbono</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Projeto II</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="salma.html">Salma</a>
+            </div>
+        </div>
+        <a href="contacto.html" class="right">Contacte-me</a>
+    </div>
+
+
+    <h1 id="test1">Sobre mim </h1>
+
+    <div class="row">
+        <div class="column">
+            <div class="card"><img src="https://dl.dropboxusercontent.com/s/iv95nv5lcpf0lye/me.jpg?dl=0" alt="Avatar"
+                    style="width:100%">
+                <div class="container" id="containerTest" style="text-align: center">
+                    <p><b>Sofia Ribeiro</b></p>
+                    <p id="test">Designer</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <h2>Olá, eu sou a Sofia!</h2>
+            <p>Sou estudante de design na Universidade de Aveiro desde 2017. Completei os estudos no curso de Ciências e
+                Tecnologias na Escola Secundária Dr. Mário Sacramento – média final de 17.13 valores e o Curso de
+                Marketing Digital Online, Google Atelier.</p>
+            <p>A minha língua materna é português, mas tenho também conhecimentos de inglês (C2) e espanhol (A2).</p>
+            <p>Lido com softwares como:</p>
+            <ul>
+                <li>Adobe Illustrator</li>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Premier</li>
+                <li>Adobe inDesign</li>
+                <li>Autodesk Fusion 360</li>
+            </ul>
+        </div>
+        <div class="column">
+            <p>Já trabalhei como designer gráfico para a empresa Wood First, Lda. na realização de cartazes e
+                catálogos. Também criei um cartaz para o musical <i>Cats</i> para o Queensland Musical Theatre.</p>
+        </div>
+    </div>
+    <div>
+
+
+        <h2 id="test1">Projetos realizados</h2>
+
+
+        <table>
+            <tr>
+                <th><b>ano</b></th>
+                <td style="text-align: center"><b>disciplina</b><br>professor </td>
+                <th>projetos</th>
+            </tr>
+            <tr>
+                <td style="text-align: center">2017/2018</td>
+                <td><b>Tipografia</b><br><em>Prof. Olinda Martins</em></td>
+                <td>
+                    <ul>
+                        <li>Calendário tipográfico</li>
+                        <li>Fonte tipográfica</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><b>Projeto em Design I</b><br><em>Prof. Gonçalo Gomes</em></td>
+                <td>
+                    <ul>
+                        <li>Identidade visual de uma empresa</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center">2018/2019</td>
+                <td><b>Projeto em Design II</b><br><em>Prof. Nuno Dias</em></td>
+                <td>
+                    <ul>
+                        <li>Objeto para a loja UA</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        <svg width="400" height="110">
+            <rect width="100%" height="100" style="fill: #f1f1f1 ;stroke-width:0" /></svg>
+    </div>
+</body>
+
+</html>

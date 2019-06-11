@@ -1,0 +1,454 @@
+#test1 {
+
+    margin-left: 40px;
+
+}
+
+
+.dropbtn {
+    background-color: black;
+    color: grey;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    visibility: visible;
+    width: inherit;
+}
+
+.dropdown-content a:hover {
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: white;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: grey;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+#myBtn:hover {
+    color: white;
+}
+
+
+
+
+.coltwo {
+    float: left;
+    width: auto;
+    padding: 10px;
+    margin-left: 40px;
+    height: 300px;
+    margin-top: 80px;
+    font-size: 1.2vw;
+    background-color: #f1f1f1;
+
+}
+
+.colto img {
+    width: 800px;
+    padding: 10px;
+}
+
+.colto {
+    float: left;
+    width: 300px;
+    padding: 10px;
+    height: 300px;
+    margin-left: 50px;
+    font-size: 1.2vw;
+    /*mínimo????*/
+    background-color: #f1f1f1;
+
+}
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-color: rgba(208, 208, 208, 0.68)
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    width: 70%;
+    margin: 40px;
+}
+
+#test {
+
+    font-weight: 300;
+}
+
+
+
+
+.header {
+    padding: 200px;
+    position: relative;
+    text-align: left;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://mondrian.mashable.com/uploads%252Fcard%252Fimage%252F884392%252F8d21226a-b418-42d1-9b52-473605b1d53e.jpg%252F950x534__filters%253Aquality%252890%2529.jpg?signature=y9LpCj-Hgh3hu8TgPSeH5KXG7e0=&source=https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.salma {
+    padding: 200px;
+    position: relative;
+    text-align: left;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://dl.dropboxusercontent.com/s/7d14qn5fr4ftcjw/54799387_1780009428772445_2261115288512626688_n.png?dl=0");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.carbono {
+    padding: 200px;
+    position: relative;
+    text-align: left;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://dl.dropboxusercontent.com/s/9jifsyu7egzw8vs/carbono.png?dl=0");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.absolem {
+    padding: 200px;
+    position: relative;
+    text-align: left;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://dl.dropboxusercontent.com/s/fm4ive0j8seyezo/Screen%20Shot%202019-05-03%20at%207.31.10%20PM.png?dl=0");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.agosto {
+    padding: 200px;
+    position: relative;
+    text-align: left;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://dl.dropboxusercontent.com/s/xiossjyp0s6xden/Screen%20Shot%202019-05-05%20at%2012.31.47%20PM.png?dl=0");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+
+.header h1,
+.salma h1,
+.agosto h1,
+.absolem h1,
+.carbono h1 {
+    font-size: 6vw;
+}
+
+
+.header h4,
+.absolem h4,
+.agosto h4,
+.salma h4,
+.carbono h4 {
+    font-size: 1.5vw;
+    font-weight: 300
+}
+
+
+section {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+
+    margin: auto;
+    width: 200 px
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+    height: 500px;
+
+}
+
+
+.columnfilter {
+    display: none;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px;
+}
+
+.row:after {
+    content: inherit;
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+h2 {
+    font-weight: 700
+}
+
+p {
+    font-weight: 400
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding: 2px 16px;
+    width: 100%;
+}
+
+
+.click {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    background-color: yellow;
+    color: black;
+    font-size: 2vw;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    border-radius: 0px;
+}
+
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-color: rgba(208, 208, 208, 0.68)
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    width: 70%;
+    margin: 40px;
+}
+
+#test {
+
+    font-weight: 300;
+}
+
+
+
+.navbar {
+    background-color: black;
+    z-index: 10000000;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+}
+
+/* links do menu */
+.navbar a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    background-color: black;
+
+}
+
+
+.navbar a.right {
+    float: right;
+    background-color: yellow;
+    color: black;
+
+}
+
+
+.navbar a:hover {
+
+    color: white;
+}
+
+.navbar a.right:hover {
+    color: black;
+}
+
+
+/* todos*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0;
+}
+
+
+.index {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 10px -16px;
+}
+
+/* Adicionar espaço entre cada coluna */
+.row,
+.row .column {
+    padding: 8px;
+}
+
+.row1,
+.row1 .column {
+    padding: 10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+.content:hover {
+
+    background: rgb(218, 218, 218);
+
+}
+
+/* Adicionada aos elementos filtrados */
+.show {
+    display: block;
+}
+
+.click {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+/* butões para filtrar */
+.btn {
+    border: 30px;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
