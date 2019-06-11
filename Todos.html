@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="style3.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="script.js"></script>
+
+
+    <title>Os meus projetos</title>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html"><i class="fa fa-fw fa-home"></i></a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Tipografia</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="absolem.html">Absolem</a>
+                <a href="agosto.html">Agosto</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Projeto I</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="carbono.html">Carbono</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Projeto II</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="salma.html">Salma</a>
+            </div>
+        </div>
+        <a href="contacto.html" class="right">Contacte-me</a>
+    </div>
+
+    <svg width="400" height="110">
+        <rect width="100%" height="100" style="fill: #f1f1f1 ;stroke-width:0" /></svg>
+    <div class="index">
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+        <h1>Os meus projetos</h1>
+
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Mostrar todos</button>
+
+            <button class="btn" onclick="filterSelection('Tipografia')"> Tipografia</button>
+            <button class="btn" onclick="filterSelection('Projeto1')"> Projeto I</button>
+            <button class="btn" onclick="filterSelection('Projeto2')"> Projeto II</button>
+        </div>
+
+
+        <div class="row1">
+            <div class="columnfilter Projeto2">
+                <div class="content">
+                    <a href="salma.html"><img
+                            src="https://dl.dropboxusercontent.com/s/u2kgij67ipy16kp/Screen%20Shot%202019-05-06%20at%203.30.19%20PM.png?dl=0"
+                            alt="Projeto2" style="width:100%"> </a>
+                    <h4>Salma</h4>
+                    <p>Objeto para a loja UA, 2019</p>
+
+                </div>
+            </div>
+            <div class="columnfilter Projeto1">
+                <div class="content" id="ola">
+                    <a href="carbono.html"> <img
+                            src="https://dl.dropboxusercontent.com/s/wm079i7x8btjp8d/Screen%20Shot%202019-05-03%20at%207.36.45%20PM.png?dl=0"
+                            alt="Projeto1" style="width:100%"> </a>
+                    <h4>Carbono</h4>
+                    <p>Identidade visual, 2018</p>
+
+                </div>
+            </div>
+
+            <div class="columnfilter Tipografia">
+                <div class="content">
+                    <a href="absolem.html"> <img
+                            src="https://dl.dropboxusercontent.com/s/fm4ive0j8seyezo/Screen%20Shot%202019-05-03%20at%207.31.10%20PM.png?dl=0"
+                            alt="Tipografia" style="width:100%"> </a>
+                    <h4>Absolem</h4>
+                    <p>Fonte tipográfica, 2018</p>
+
+                </div>
+            </div>
+            <div class="columnfilter Tipografia">
+                <div class="content">
+                    <a href="agosto.html"> <img
+                            src="https://dl.dropboxusercontent.com/s/puum5l05sj9gbqs/Screen%20Shot%202019-05-03%20at%207.45.21%20PM.png?dl=0"
+                            alt="Tipografia" style="width:100%"> </a>
+                    <h4>Agosto</h4>
+                    <p>Calendário tipográfico, 2018</p>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script>
+        filterSelection("all")
+
+        doStuff();
+
+        window.onscroll = function () {
+            scrollFunction()
+        };
+    </script>
+</body>
+
+</html>
